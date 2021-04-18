@@ -1,6 +1,14 @@
 .resaltado01{
     color: royalblue;
+    font-weight: bold;
 }
 .resaltado02{
-    color: red
+    color: red;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#datospersonales{
+    background-color: lightblue;
+    width: 400px;
+    text-align: left;
 }
