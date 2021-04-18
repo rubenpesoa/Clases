@@ -1,0 +1,15 @@
+
+p{
+    /*comentario en CSS*/
+    color: green; /*color de la fuente*/
+    font-family: 'Times New Roman', Times, serif; 
+    font-size: 20px;
+}
+h2{
+    color: purple;
+    font-family: arial;
+    background-color: gold;
+}
+h1{
+    text-transform: uppercase ;
+}
