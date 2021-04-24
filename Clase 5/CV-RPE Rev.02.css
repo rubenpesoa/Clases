@@ -1,0 +1,60 @@
+
+/* font-family: 'Orelega One', cursive; */ 
+
+.resaltado01{
+    color: royalblue;
+    font-weight: bold;
+}
+.resaltado02{
+    color: red;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 23px;
+}
+
+#datospersonales{
+    background-color: lightblue;
+    width: 400px;
+    height: 150px;
+    text-align: left;
+    box-shadow: 10px -5px 30px indigo;
+    border-radius: 1px 20px 20px 1px ;
+    padding-top: 20px;
+    
+}
+.frasefavorita{
+    background: linear-gradient(to bottom, rgb(137, 138, 136), rgb(223, 223, 219));
+    text-transform: uppercase;
+    color:black;
+    font-weight: bold;
+    text-decoration: underline;
+    border-radius: 0 0 0 0;
+}
+
+.llamada{
+    column-count: 2;
+    column-gap: 20px;
+}
+
+
+.sealand{
+    color: yellow;
+    font-weight: bolder;
+}
+
+.frase{
+        right: 0px;
+        width: 350px;
+        border: 3px solid #241891;
+        padding: 10px;
+        font-style: italic;
+        font-size: small;
+        text-align: justify;
+}
+
+.footer{
+    font-style: italic;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    background-color: green;
+}
