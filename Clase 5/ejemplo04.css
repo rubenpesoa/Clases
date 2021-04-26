@@ -1,3 +1,11 @@
 header{
     background: linear-gradient(to bottom, blue, white);
     }
+    
+    div {
+        margin: .4em 0;
+      }
+      div label {
+        width: 25%;
+        float: left;
+      }

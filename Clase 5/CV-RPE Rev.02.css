@@ -1,24 +1,28 @@
-
-/* font-family: 'Orelega One', cursive; */ 
-
 .resaltado01{
     color: royalblue;
     font-weight: bold;
+    text-align: right;
 }
-.resaltado02{
+.resaltado02:hover{
     color: red;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 23px;
 }
 
+label{
+
+    width: 200px;
+    display: inline-block;
+}
 #datospersonales{
     background-color: lightblue;
     width: 400px;
-    height: 150px;
+    height: 200px;
     text-align: left;
     box-shadow: 10px -5px 30px indigo;
     border-radius: 1px 20px 20px 1px ;
     padding-top: 20px;
+    display: inline-block;
     
 }
 .frasefavorita{
