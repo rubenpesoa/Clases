@@ -5,6 +5,7 @@
     flex-direction:row;
     align-items: center;
     justify-content: space-between;
+    width: 100%;
 }
 .caja1{
     height: 100px;
