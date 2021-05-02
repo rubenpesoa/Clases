@@ -1,0 +1,42 @@
+.contenedor{
+    background-color: white;
+    border: 1px solid black;
+    display:inline-flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: space-between;
+}
+.caja1{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+    margin-right: 50px;
+    margin-left: 0;
+  }
+
+.caja2{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+    margin-right: 10px;
+    margin-left: 10px;
+    
+}
+
+.caja3{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+    margin-right: 0px;
+    margin-left: 50px;
+    
+    }
