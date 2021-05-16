@@ -1,0 +1,39 @@
+﻿/* CSS Document */
+
+body {
+	padding:0;
+	margin:0;
+}
+#container {
+	background: #8FA68E;
+	width:100%;
+
+
+}
+#menu {
+	background: #FC6;
+	float:none;
+	width:100%;
+}
+#menu ul {
+	margin:0;
+}
+a {
+	padding: 0.5em;
+	display: block;
+	color:#000;
+}
+#content {
+	border-top: solid black 0.1em;
+	float:none;
+	padding: 0.9em;
+	width:100%;
+	margin-left:0;
+}
+#extras {
+	border-top: solid black 0.1em;
+	float:none;
+	padding: 0.8em;
+	width:100%;
+	margin-left:0;
+}

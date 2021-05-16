@@ -1,0 +1,69 @@
+body{
+    background:#030303 url(imagenes/planonuevo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container-fluid{
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+    text-transform: uppercase;
+    }
+
+.container{
+        color: black;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+h1{
+    color: white;
+    text-align: center;
+}
+
+.img-fluid{
+    text-align: left;
+}
+
+.more{
+	position:relative;
+	clear:both;
+	font-family:'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    font-size: 15px;
+    width: 600px;
+    margin: 0 auto;
+}
+.more ul{
+	display: block;
+	text-align:center;
+    height: 30px;
+}
+
+.more ul li{
+	display: block;
+    padding: 4px 2px;
+    float:left;
+}
+.more ul li.selected a,
+.more ul li.selected a:hover{
+	background:blue;
+	color:white;
+	text-shadow:none;
+    font-weight: bold;
+}
+.more ul li a{
+	color:white;
+    float:none;
+	background:black;
+    width:40px;
+	padding: 5px 5px;
+	-moz-box-shadow:1px 1px 2px #aaa;
+	-webkit-box-shadow:1px 1px 2px #aaa;
+	box-shadow:1px 1px 2px #aaa;
+}
+.more ul li a:hover{
+	background:#000;
+	color:#fff;
+ }
