@@ -1,0 +1,227 @@
+/* font-family: 'Open Sans', sans-serif; */
+body{
+    font-family:'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+header{
+    background-color: #2e64a1;
+    padding: 1em 0;
+}
+
+header h1{
+    color:white;
+    font-size: 2.5em;
+    font-style: italic;
+    font-weight: 100;
+    display: inline-block;
+    position: relative;
+    bottom: 30px;
+}
+
+nav{
+    background-color: #6da9ed;
+    margin-bottom: 2em;
+}
+
+nav ul{
+    list-style: none;
+    margin:0;
+    padding:0;
+}
+
+nav ul li{
+    display:inline-block;
+    width: 16.3%;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    padding: 0.2em 0.4em;
+}
+
+nav ul li a:hover{
+    background-color: rgba(0,0,0,0.3);
+}
+
+nav ul li a.activo{
+    background-color: #4c76a5;
+}
+
+footer{
+    background-color: #ccc;
+    clear:both;
+    color:#333;
+    padding: 3em 0;
+    margin-top: 2em;
+    text-align: center;
+}
+
+.holder{
+    max-width: 960px;
+    margin:0 auto;
+}
+
+h2{
+    color:#2e64a1;
+    font-weight: 400;
+    margin:0 0 1em;
+}
+
+.left{
+    float:left;
+}
+.right{
+    float:right;
+}
+
+/* inicio home */
+
+.homeimg{
+    margin-bottom: 1.5em;
+}
+
+.bienvenidos, .testimonios{
+    box-sizing: border-box;
+}
+
+.bienvenidos{
+    width: 75%;
+    padding-right: 2em;
+    background-color: yellow;
+} 
+.testimonios{
+    width: 25%;
+    background-color: orange;
+}
+
+.testimonio{
+    background: #ccc;
+    padding: 1em;
+}
+
+.testimonio .cita{
+    font-weight:bold;
+    font-style: italic;
+    font-size: 1.4em;
+    display: block;
+    background-color: yellow;
+}
+
+.testimonio .autor{
+    font-size: 0.7em;
+    text-align: center;
+    margin: 1em 0;
+    background-color: orange;
+    display: block;
+}
+
+/* fin home */
+
+/* Inicio nosotros */
+.historia p{
+    font-size: 0.8em;
+}
+
+.personas{
+    overflow: hidden;  
+}
+
+.persona{
+    width: 18%;
+    border: 1px solid gray;
+    border-radius: 0.25em;
+    float: left;
+    margin-left: 2.25%;
+    box-sizing: border-box;
+}
+
+.persona{
+    text-align: center;
+}
+.persona img{
+    border-radius: 50%;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+    margin:0.8em 0 1em;
+    max-width: 70%;
+}
+
+.persona h5,
+.persona h6{
+    text-align: center;
+    font-weight: normal;
+    color: #2e64a1;
+    margin:0;
+}
+
+.persona h5{
+    font-size: 0.9em;
+}
+.persona h6{
+    font-size: 0.8em;
+    font-style: italic;
+}
+
+.persona p{
+    font-size: 0.7em;
+    color:#444;
+    margin:0 1em 1em;
+}
+
+.persona:first-child{
+    margin-left: 0;
+}
+
+/* Fin nosotros */
+
+/* Inicio Servicio */
+.servicio{
+    border: 1px solid gray;
+    border-radius: 0.7em;
+    margin: 1em 0;
+    padding: 1em;
+    overflow: hidden;
+}
+
+.servicio .info{
+    width: 75%;
+}
+
+.servicio .info h4{
+    color: #2e64a1;
+    font-size: 1.2em;
+    font-style: italic;
+    font-weight: 500;
+    margin: 0 0 1em;
+    border-bottom: 1px solid #2e64a1;
+    padding-bottom: 0.5em;
+}
+
+.servicio .info p{
+    font-size: 0.8em;
+    line-height: 1.2em;
+}
+
+.servicio img{
+    border-radius: 0.8em;
+}
+
+.servicio:nth-child(even) img{
+    float: right;
+    margin: 0 0 0 1em;
+}
+
+.servicio:nth-child(odd) img{
+    float: left;
+    margin: 0 1em 0 0;
+}
+
+.servicio:nth-child(odd) .info{
+    float: right;
+}
+
+/* Fin Servicios */
