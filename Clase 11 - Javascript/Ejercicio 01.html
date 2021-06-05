@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title></title>
+</head>
+
+<body>
+	<script>
+    
+        var num;
+        
+        num=prompt('Ingrese la cantidad de metros a recorrer:','');
+        
+                
+		if ( num<1000 ){
+	  document.write(' PIE ');
+		}
+	
+		else{
+			if ( num<10000 ){
+		document.write(' BICI ');
+			}
+		
+		else{
+			if ( num<30000 ){
+		document.write(' COLECTIVO ');
+			}
+		
+			else{
+				if ( num<100000 ){
+			document.write(' AUTO ');
+				}
+			
+				else{
+					document.write(' AVION ');
+					}
+				}   
+			}
+	  
+		}
+    </script>
+
+</body>
+</html>
